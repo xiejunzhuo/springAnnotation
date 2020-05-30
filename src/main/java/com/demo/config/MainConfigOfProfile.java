@@ -82,7 +82,7 @@ public class MainConfigOfProfile implements EmbeddedValueResolverAware{
 		return dataSource;
 	}
 
-	@Override
+//	@Override
 	public void setEmbeddedValueResolver(StringValueResolver resolver) {
 		// TODO Auto-generated method stub
 		this.valueResolver = resolver;
