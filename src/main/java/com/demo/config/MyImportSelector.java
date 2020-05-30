@@ -8,11 +8,13 @@ import org.springframework.stereotype.Component;
 import java.util.Set;
 
 /**
+ * 自定义逻辑返回需要导入的组件
+ *
  * @author 李建成
  * @version 1.0
  * @date 2020/5/30 17:44
  */
-//自定义逻辑返回需要导入的组件
+
 public class MyImportSelector implements ImportSelector {
     /**
      * //返回值，就是到导入到容器中的组件全类名

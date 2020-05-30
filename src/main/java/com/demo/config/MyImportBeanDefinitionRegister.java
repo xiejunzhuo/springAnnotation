@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 import org.springframework.core.type.AnnotationMetadata;
 
 /**
+ * 3.给容器中注入组件【ImportBeanDefinitionRegistrar】
  * @author 李建成
  * @version 1.0
  * @date 2020/5/30 18:44

@@ -1,5 +1,6 @@
 package com.demo.test;
 
+import com.demo.bean.Color;
 import com.demo.bean.Person;
 import com.demo.config.MainConfig;
 import com.demo.config.MainConfig2;
@@ -64,6 +65,8 @@ public class IocTest {
         for (String name :beanDefinitionNames){
             System.out.println(name);
         }
+        Color color = applicationContext.getBean(Color.class);
+        System.out.println(color);
     }
 
 }
